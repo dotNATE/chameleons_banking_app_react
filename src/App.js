@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import AccountsPage from "./Components/App/AccountsPage";
 
 function App() {
   return (

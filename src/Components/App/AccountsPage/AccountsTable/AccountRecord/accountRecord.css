@@ -1,0 +1,11 @@
+.accountRow {
+    border-bottom: 1px solid slategrey;
+    padding: 10px 0 10px 0;
+}
+
+.btnDisplay {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}

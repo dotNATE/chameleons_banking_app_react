@@ -1,18 +1,17 @@
 import React from "react"
-import Button from "../../../Utilities/Button";
+import ActionButton from "../../../Utilities/Buttons/ActionButton";
 
 const AccountRecord = (props) => (
     <tr>
-        <td>{ props.id }</td>
-        <td>{ props.name }</td>
+        <td data-id={ props.id }>{ props.name }</td>
         <td>{ props.balance }</td>
         <td>
-            <Button content="deposit" />
-            <Button content="withdraw" />
-            <Button content="transfers" />
+            <ActionButton action="deposits" />
+            <ActionButton action="withdrawals" />
+            <ActionButton action="transfers" />
         </td>
         <td>
-            <Button content="delete" />
+            <ActionButton action="delete" />
         </td>
     </tr>
 )

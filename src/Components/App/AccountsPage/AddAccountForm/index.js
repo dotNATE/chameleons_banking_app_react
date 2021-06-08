@@ -1,8 +1,6 @@
 import React from "react"
-import Button from "../../Utilities/Button";
+import ActionButton from "../../Utilities/Buttons/ActionButton";
 
-const AddAccountForm = () => (
-    <Button content="add new account" />
-)
+const AddAccountForm = () => <ActionButton action="add new account" />
 
 export default AddAccountForm

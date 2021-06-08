@@ -1,0 +1,10 @@
+.titleMain {
+    background-color: rgb(15, 0, 40);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+}
+
+.titleMain h1 {
+    color: white;
+}

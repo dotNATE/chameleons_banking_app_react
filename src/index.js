@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
 import AccountsPage from "./Components/App/AccountsPage"
+import Modal from "./Components/App/Utilities/Modal";
 
 ReactDOM.render(
   <React.StrictMode>
     <AccountsPage />
+      <Modal/>
   </React.StrictMode>,
   document.getElementById('root')
 );

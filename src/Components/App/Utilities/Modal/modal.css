@@ -1,0 +1,19 @@
+.modalBg {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    position: absolute;
+    height: 70vh;
+    width: 70vw;
+    margin: 0 auto;
+    background-color: white;
+}

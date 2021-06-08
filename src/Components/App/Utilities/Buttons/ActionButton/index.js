@@ -5,12 +5,21 @@ class ActionButton extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            action: props.action
+            action: props.action,
+            url: 'http://localhost:3001/' + props.action,
+            method: props.method
         }
+        console.log(this.state.url)
     }
 
-    handleClickEvent = () => {
+    openModal() {
 
+    }
+
+    async handleClickEvent() {
+        let data = await fetch(this.state.url, {
+            method: this.state.method
+        })
     }
 
     render() {

@@ -1,0 +1,9 @@
+.closeBtn {
+    border: 2px solid rgb(115, 62, 251);
+    background: transparent;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    padding: .5rem;
+    color: rgb(115, 62, 251);
+}

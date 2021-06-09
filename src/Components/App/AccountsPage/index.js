@@ -3,7 +3,6 @@ import Title from "../Utilities/Title"
 import SimpleForm from "../Utilities/SimpleForm"
 import AccountsTable from "./AccountsTable"
 import './accountsPage.css'
-import Modal from "../Utilities/Modal";
 
 const AccountsPage = () => (
     <div>

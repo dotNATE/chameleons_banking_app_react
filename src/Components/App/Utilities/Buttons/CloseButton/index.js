@@ -1,5 +1,16 @@
 import React from "react"
+import './closeButton.css'
 
-const CloseButton = () => <button className="btn closeBtn">Close</button>
+class CloseButton extends React.Component {
+    handleClick() {
+        document.querySelector('.modalBg').classList.add('hidden')
+    }
+
+    render() {
+        return  (
+            <button className="btn closeBtn" onClick={ this.handleClick }>Close</button>
+        )
+    }
+}
 
 export default CloseButton

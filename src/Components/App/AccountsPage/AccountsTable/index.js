@@ -3,18 +3,6 @@ import AccountRecord from "./AccountRecord"
 import TableHead from "./TableHead"
 import './accountsTable.css'
 
-const AccTable = () => (
-    <table>
-        <TableHead />
-        <tbody className="accountsTableBody">
-            <AccountRecord id="165168946951*86jklhjv" name="Nathaniel" balance="10420" />
-            <AccountRecord id="165168946951*86jklhjv" name="Izzy" balance="25469" />
-            <AccountRecord id="165168946951*86jklhjv" name="Imy" balance="413" />
-            <AccountRecord id="165168946951*86jklhjv" name="Maria" balance="-403" />
-        </tbody>
-    </table>
-)
-
 class AccountsTable extends React.Component {
     constructor(props) {
         super(props)
@@ -29,7 +17,6 @@ class AccountsTable extends React.Component {
         this.setState({
             accounts: json.data
         })
-        console.log(this.state.accounts)
     }
 
     render() {

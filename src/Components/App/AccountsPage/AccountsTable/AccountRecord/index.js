@@ -7,10 +7,10 @@ const AccountRecord = (props) => (
         <td data-id={ props.id }>{ props.name }</td>
         <td>£{ props.balance }</td>
         <td className="btnDisplay">
-            <ActionButton action="deposits" />
-            <ActionButton action="withdrawals" />
-            <ActionButton action="transfers" />
-            <ActionButton action="delete" />
+            <ActionButton action="deposits" method="put"/>
+            <ActionButton action="withdrawals" method="put"/>
+            <ActionButton action="transfers" method="put"/>
+            <ActionButton action="delete" method="delete"/>
         </td>
     </tr>
 )
